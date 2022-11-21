@@ -169,6 +169,7 @@ body {
 .slogan {
     color: var(--wite-color);
     font-size: 44px;
+    font-weight: 900;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
@@ -241,10 +242,9 @@ body {
    justify-content: center;
    align-items: center;
 background-color: #F5F4FA;
+border-radius: 4%;
 margin: 0;
 padding: 0;
-
-
 }
 
 img {
@@ -445,6 +445,7 @@ img {
 }
 
 .wrapper-team {
+    background-color: #FFFFFF;
     padding-top: 30px;
     padding-bottom: 30px;
     border-width: 1px;
@@ -744,6 +745,10 @@ img {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+.footer-icon {
+fill: #FFFFFF;
+}
 .footer-link {
+    
     background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
 }
